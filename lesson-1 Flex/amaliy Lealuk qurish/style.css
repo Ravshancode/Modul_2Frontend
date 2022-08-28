@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+header {
+width: 100%;
+height: 90px;
+background-color: aqua;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:0 20px;
+}
+aside{
+  background-color: cadetblue;
+  width: 300px;
+  height: calc(100vh - 90px - 40px);
+  border-radius: 20px;
+  padding: 30px;
+}
+main{
+  /* background-color: chartreuse; */
+  width: calc(100% - 300px - 300px);
+  height: calc(100vh - 90px - 40px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  text-align: center;
+}
+aside:last-child{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+aside:last-child .top{
+  background-color: blue;
+  width: 100%;
+  height: 60%;
+  border-radius: 20px;
+}
+aside:last-child .bottom{
+  background-color: steelblue;
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+nav>ul{
+ list-style-type: none;
+}
+nav>ul>li{
+  padding: 0 10px;
+  display: inline-block;
+
+}
+nav>ul>li>a{
+  transition: 0.3s;
+  color: black;
+ font-weight: bolder;
+  text-decoration: none;
+}
+nav>ul>li:hover a{
+color:rgb(51, 255, 0)
+}
+.flex-container{
+  display: flex;
+  padding: 20px ;
+  gap: 20px;
+}
+.web-languch li{
+  list-style: none;
+  padding: 10px;
+  color:white;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+.web-languch li:hover{
+background-color: #fff;
+color:  black;
+color: #202c2d;
+text-shadow:
+  0 1px #808d93,
+  -1px 0 #cdd2d5,
+  -1px 2px #808d93,
+  -2px 1px #cdd2d5,
+  -2px 3px #808d93,
+  -3px 2px #cdd2d5,
+  -3px 4px #808d93,
+  -4px 3px #cdd2d5,
+  -4px 5px #808d93,
+  -5px 4px #cdd2d5,
+  -5px 6px #808d93,
+  -6px 5px #cdd2d5,
+  -6px 7px #808d93,
+  -7px 6px #cdd2d5,
+  -7px 8px #808d93,
+  -8px 7px #cdd2d5;
+}
+.menu li{
+  list-style: none;
+  padding: 10px;
+  color:white;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.bottom{
+  padding: 10px;
+}
+.menu li:hover{
+  
+  background-color: #fff;
+  color: black;
+}

@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  padding: 0 30px;
+  
+}
+.quti{
+  background-color: yellow;
+  display: flex;
+  row-gap: 100px;
+}
+.quti-flex{
+width: 100px;
+height: 100px;
+background-color: blue;
+color: #fff;
+font-size: 24px;
+font-weight: bold ;
+margin: 10px;
+text-align: center;
+line-height: 100px ;
+}
+.color{
+  color: #ff0000;
+}
